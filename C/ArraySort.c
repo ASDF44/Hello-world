@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+void main()
 {
     int n[100],m,i,temp,r;
     printf(" enter the number of values you want to enter : ");
@@ -28,6 +28,5 @@ main()
       
         printf("%d",n[i]);
 
-    }
-    return 0; #As by default the return type of main is int.
+    } 
 }
